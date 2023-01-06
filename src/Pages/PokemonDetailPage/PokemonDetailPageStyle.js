@@ -10,20 +10,13 @@ export const ContainerDetailPage = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1;
-  .pokebolaContainer {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    /* left: 0;
-    top: 0; */
-    position: absolute;
-  }
 `;
 
 export const TitleDetails = styled.h2`
   margin-right: 77%;
-  /* padding: 35px; */
-
+  padding: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -106,8 +99,6 @@ export const BoxPokemon = styled.div`
   img {
     width: 40%;
     height: 40%;
-    /* width: 85%;
-    height: 85%; */
   }
 `;
 
@@ -264,13 +255,4 @@ export const LogoPokemon = styled.img`
   position: absolute;
   top: -97px;
   right: -115px;
-`;
-
-export const LogoPokemonContainer = styled.img`
-  width: 1080px;
-  height: 950px;
-
-  position: absolute;
-  top: -190px;
-  right: 10%;
 `;

@@ -20,8 +20,6 @@ import {
   PokemonTypeContainer,
   ContainerMoves,
   TypeItemPokemon,
-  LogoPokemonContainer,
-  // PokebolaContainer
 } from "./PokemonDetailPageStyle";
 import logoPokemonCard from "../../assets/logo-pokemon-background.svg";
 
@@ -63,9 +61,6 @@ function PokemonDetailPage() {
     <>
       <Header />
       <ContainerDetailPage>
-            <div className="pokebolaContainer">
-              <LogoPokemonContainer src={logoPokemonCard} alt="logo do Pokémon" />
-            </div>
         <TitleDetails>Detalhes</TitleDetails>
         <CardDetails
           style={{
@@ -74,10 +69,22 @@ function PokemonDetailPage() {
         >
           <div>
             <BoxPokemon>
-              <img src={pokemon.sprites?.versions["generation-v"]["black-white"].animated.front_default} alt="" />
+              <img
+                src={
+                  pokemon.sprites?.versions["generation-v"]["black-white"]
+                    .animated.front_default
+                }
+                alt=""
+              />
             </BoxPokemon>
             <BoxPokemon>
-              <img src={pokemon.sprites?.versions["generation-v"]["black-white"].animated.back_default} alt="" />
+              <img
+                src={
+                  pokemon.sprites?.versions["generation-v"]["black-white"]
+                    .animated.back_default
+                }
+                alt=""
+              />
             </BoxPokemon>
           </div>
 
@@ -160,10 +167,10 @@ function PokemonDetailPage() {
               </BaseStats>
               <hr />
               <BaseStats>
-                  <div className="total">
-                    <span>Total</span>
-                    <span className="stats">{totalStats}</span>
-                  </div>
+                <div className="total">
+                  <span>Total</span>
+                  <span className="stats">{totalStats}</span>
+                </div>
               </BaseStats>
               <hr />
             </div>
