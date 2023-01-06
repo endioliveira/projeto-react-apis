@@ -17,7 +17,7 @@ Systems e Estado Global.
 <img align="center" alt="Endi-React-Router" height="30" width="150" src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
 <img align="center" alt="Endi-StyledComponents" height="30" width="150" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
 
-### Funcionalidades
+## Funcionalidades
 ### Home 
 - O usuário consegue visualizar uma lista de pokémons.
 - Em cada card do Pokémon, tem um botão para adicioná-lo à Pokédex e um outro botão para acessar os detalhes do Pokémon.
