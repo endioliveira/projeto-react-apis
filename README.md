@@ -1,21 +1,12 @@
 
 # Site de Pokémons - Projeto de Front End com API
 
-Esse projeto teve como fonte de dados para sua criação a Poke API, uma
-API pública. Esse projeto possui três páginas: Home, Pokedex e Detalhes.
-
-E nele pratiquei os conteúdos: Integração de APIs, React Router, Design
-Systems e Estado Global.
-
+Esse projeto teve como fonte de dados para sua criação a Poke API, uma API pública. Esse projeto possui três páginas: Home, Pokedex e Detalhes.
+E nele pratiquei os conteúdos: Integração de APIs, React Router, Design Systems e Estado Global.
 
 ## O que eu utilizei para fazer o projeto
 <div align="center">
-<img align="center" alt="Endi-Figma" height="30" width="120" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-<img align="center" alt="Endi-Chakra" height="30" width="120" src="https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white">
-<img align="center" alt="Endi-NPM" height="30" width="120" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
-<img align="center" alt="Endi-React" height="30" width="120" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAF">
-<img align="center" alt="Endi-React-Router" height="30" width="150" src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
-<img align="center" alt="Endi-StyledComponents" height="30" width="150" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+ReactJS | Axios | React Context | Hooks | React Router | Styled Components | Chakra UI 
 </div>
 
 ## Funcionalidades
