@@ -38,9 +38,14 @@ function Header(props) {
       modal.style.display = "flex";
       document.body.style.overflow = "hidden";
 
+      console.log(excluir)
+
       if (excluir) {
         title[0].innerText = "Oh, no!";
         description[0].innerText = "O Pokémon foi removido da sua Pokedéx";
+      } else {
+        title[0].innerText = "Gotcha!";
+        description[0].innerText = "O Pokémon foi adicionado a sua Pokédex";
       }
     }
   };

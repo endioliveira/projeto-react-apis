@@ -44,6 +44,9 @@ function PokemonCard(props) {
       if (location.pathname === "/pokedex") {
         title[0].innerText = "Oh, no!";
         description[0].innerText = "O Pokémon foi removido da sua Pokedéx";
+      } else {
+        title[0].innerText = "Gotcha!";
+        description[0].innerText = "O Pokémon foi adicionado a sua Pokédex";
       }
     }
   };
